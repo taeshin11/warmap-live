@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ukraine-russia",
+    "name": "Russia-Ukraine War",
+    "slug": "ukraine-russia",
+    "status": "active",
+    "intensity": "high",
+    "lat": 49.0,
+    "lng": 31.0,
+    "countries": ["UA", "RU"],
+    "region": "Eastern Europe",
+    "startDate": "2022-02-24",
+    "casualties": {
+      "estimate": "500000+",
+      "source": "UN OHCHR",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Full-scale Russian invasion of Ukraine ongoing since February 2022. Fighting continues along a 1,000km front line in eastern and southern Ukraine.",
+    "tags": ["war", "invasion", "nato", "europe"],
+    "color": "#ef4444",
+    "radius": 120
+  },
+  {
+    "id": "israel-hamas",
+    "name": "Israel-Gaza War",
+    "slug": "israel-hamas",
+    "status": "active",
+    "intensity": "critical",
+    "lat": 31.5,
+    "lng": 34.5,
+    "countries": ["IL", "PS"],
+    "region": "Middle East",
+    "startDate": "2023-10-07",
+    "casualties": {
+      "estimate": "45000+",
+      "source": "Gaza Health Ministry / IDF",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Israeli military operations in Gaza following Hamas attacks on October 7, 2023. Ongoing ground and air operations with significant civilian impact.",
+    "tags": ["war", "gaza", "israel", "middle-east"],
+    "color": "#dc2626",
+    "radius": 80
+  },
+  {
+    "id": "sudan-civil-war",
+    "name": "Sudan Civil War",
+    "slug": "sudan-civil-war",
+    "status": "active",
+    "intensity": "high",
+    "lat": 15.0,
+    "lng": 30.0,
+    "countries": ["SD"],
+    "region": "East Africa",
+    "startDate": "2023-04-15",
+    "casualties": {
+      "estimate": "20000+",
+      "source": "ACLED",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) resulting in one of the world's worst humanitarian crises.",
+    "tags": ["civil-war", "africa", "humanitarian"],
+    "color": "#ea580c",
+    "radius": 100
+  },
+  {
+    "id": "myanmar-civil-war",
+    "name": "Myanmar Civil War",
+    "slug": "myanmar-civil-war",
+    "status": "active",
+    "intensity": "medium",
+    "lat": 21.0,
+    "lng": 96.0,
+    "countries": ["MM"],
+    "region": "Southeast Asia",
+    "startDate": "2021-02-01",
+    "casualties": {
+      "estimate": "50000+",
+      "source": "AAPP",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Armed conflict between the military junta and pro-democracy forces following the 2021 coup. Multiple ethnic armed organizations involved.",
+    "tags": ["civil-war", "coup", "southeast-asia"],
+    "color": "#d97706",
+    "radius": 60
+  },
+  {
+    "id": "yemen-conflict",
+    "name": "Yemen War",
+    "slug": "yemen-conflict",
+    "status": "active",
+    "intensity": "high",
+    "lat": 15.0,
+    "lng": 48.0,
+    "countries": ["YE", "SA"],
+    "region": "Middle East",
+    "startDate": "2015-03-26",
+    "casualties": {
+      "estimate": "377000+",
+      "source": "UN",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Ongoing multi-sided conflict involving Houthi forces, Saudi-led coalition, and Yemeni government. Houthi attacks on Red Sea shipping continue.",
+    "tags": ["war", "yemen", "houthi", "middle-east"],
+    "color": "#ea580c",
+    "radius": 80
+  },
+  {
+    "id": "somalia-conflict",
+    "name": "Somalia Conflict",
+    "slug": "somalia-conflict",
+    "status": "active",
+    "intensity": "medium",
+    "lat": 5.0,
+    "lng": 46.0,
+    "countries": ["SO"],
+    "region": "East Africa",
+    "startDate": "2006-01-01",
+    "casualties": {
+      "estimate": "500000+",
+      "source": "ACLED",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Al-Shabaab insurgency continues against the Somali Federal Government backed by ATMIS forces. Ongoing attacks in south-central Somalia.",
+    "tags": ["terrorism", "al-shabaab", "africa"],
+    "color": "#d97706",
+    "radius": 50
+  },
+  {
+    "id": "sahel-conflict",
+    "name": "Sahel Crisis",
+    "slug": "sahel-conflict",
+    "status": "active",
+    "intensity": "high",
+    "lat": 14.0,
+    "lng": 2.0,
+    "countries": ["ML", "BF", "NE"],
+    "region": "West Africa",
+    "startDate": "2012-01-01",
+    "casualties": {
+      "estimate": "25000+",
+      "source": "ACLED",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Jihadist insurgency across Mali, Burkina Faso, and Niger. Multiple coups have destabilized the region; Wagner Group/Russia presence expanding.",
+    "tags": ["terrorism", "jihadist", "africa", "sahel"],
+    "color": "#ea580c",
+    "radius": 90
+  },
+  {
+    "id": "ethiopia-tigray",
+    "name": "Ethiopia Tigray Conflict",
+    "slug": "ethiopia-tigray",
+    "status": "low",
+    "intensity": "medium",
+    "lat": 14.0,
+    "lng": 38.0,
+    "countries": ["ET"],
+    "region": "East Africa",
+    "startDate": "2020-11-04",
+    "casualties": {
+      "estimate": "500000+",
+      "source": "Ghent University",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Ceasefire in effect since November 2022. Sporadic violence continues in Amhara and Oromia regions despite peace agreement.",
+    "tags": ["civil-war", "ceasefire", "africa"],
+    "color": "#d97706",
+    "radius": 70
+  },
+  {
+    "id": "haiti-gang-violence",
+    "name": "Haiti Gang Crisis",
+    "slug": "haiti-gang-violence",
+    "status": "active",
+    "intensity": "high",
+    "lat": 18.5,
+    "lng": -72.3,
+    "countries": ["HT"],
+    "region": "Caribbean",
+    "startDate": "2021-07-07",
+    "casualties": {
+      "estimate": "5000+",
+      "source": "UN",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Gang violence controls over 80% of Port-au-Prince. Multinational Security Support Mission (MSS) deployed. Severe humanitarian crisis.",
+    "tags": ["gang-violence", "caribbean", "humanitarian"],
+    "color": "#ea580c",
+    "radius": 40
+  },
+  {
+    "id": "nagorno-karabakh",
+    "name": "Nagorno-Karabakh",
+    "slug": "nagorno-karabakh",
+    "status": "frozen",
+    "intensity": "low",
+    "lat": 39.8,
+    "lng": 46.7,
+    "countries": ["AZ", "AM"],
+    "region": "South Caucasus",
+    "startDate": "2020-09-27",
+    "casualties": {
+      "estimate": "7000+",
+      "source": "ICRC",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Azerbaijan took control of Nagorno-Karabakh in September 2023. Ethnic Armenians largely fled. Frozen conflict with ongoing diplomatic tensions.",
+    "tags": ["frozen-conflict", "caucasus", "azerbaijan"],
+    "color": "#16a34a",
+    "radius": 30
+  },
+  {
+    "id": "drc-conflict",
+    "name": "DR Congo Conflict",
+    "slug": "drc-conflict",
+    "status": "active",
+    "intensity": "high",
+    "lat": -2.0,
+    "lng": 28.0,
+    "countries": ["CD"],
+    "region": "Central Africa",
+    "startDate": "1998-08-02",
+    "casualties": {
+      "estimate": "6000000+",
+      "source": "IRC",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "M23 rebels backed by Rwanda continue advancing in eastern DRC. Goma fell in January 2026. One of the world's longest-running conflicts.",
+    "tags": ["civil-war", "africa", "m23"],
+    "color": "#ea580c",
+    "radius": 90
+  },
+  {
+    "id": "west-bank",
+    "name": "West Bank Violence",
+    "slug": "west-bank",
+    "status": "active",
+    "intensity": "high",
+    "lat": 32.0,
+    "lng": 35.2,
+    "countries": ["IL", "PS"],
+    "region": "Middle East",
+    "startDate": "2023-10-07",
+    "casualties": {
+      "estimate": "900+",
+      "source": "UN OCHA",
+      "lastUpdated": "2026-04-01"
+    },
+    "summary": "Heightened Israeli military operations and settler violence in the West Bank since October 2023. Significant civilian casualties and displacement.",
+    "tags": ["occupation", "middle-east", "west-bank"],
+    "color": "#ea580c",
+    "radius": 50
+  }
+]

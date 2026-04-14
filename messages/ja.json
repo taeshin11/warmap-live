@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "ukraine": "ウクライナ地図",
+    "gaza": "ガザ地図",
+    "middleEast": "中東",
+    "about": "概要"
+  },
+  "map": {
+    "title": "ライブ世界紛争マップ",
+    "subtitle": "世界中の{count}件の活発な紛争を追跡中",
+    "loading": "マップを読み込んでいます...",
+    "clickPin": "ピンをクリックして詳細を確認",
+    "conflicts": "活発な紛争",
+    "lastUpdated": "最終更新"
+  },
+  "events": {
+    "title": "最新イベント",
+    "noEvents": "最近のイベントなし",
+    "source": "出典",
+    "readMore": "続きを読む",
+    "viewAll": "すべてのイベントを表示"
+  },
+  "footer": {
+    "visitorsToday": "本日: {count}人の訪問者",
+    "visitorsTotal": "合計: {count}人の訪問者",
+    "lastUpdated": "データ最終更新: {date}",
+    "disclaimer": "情報提供のみを目的としています。データは公開レポートから収集しています。",
+    "rights": "全権利を保有。",
+    "about": "概要",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシー"
+  },
+  "severity": {
+    "critical": "緊急",
+    "high": "高",
+    "medium": "中",
+    "low": "低"
+  },
+  "conflict": {
+    "startDate": "開始日",
+    "casualties": "死傷者",
+    "region": "地域",
+    "status": "状態",
+    "countries": "国",
+    "active": "活発",
+    "frozen": "凍結",
+    "resolved": "解決",
+    "source": "出典",
+    "lastUpdated": "最終更新",
+    "recentEvents": "最近のイベント",
+    "summary": "概要",
+    "details": "紛争の詳細",
+    "backToMap": "マップに戻る"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "インタラクティブなグローバル紛争追跡ダッシュボード。リアルタイム更新付き戦争マップ。",
+    "homeTitle": "WarMap Live — インタラクティブ世界紛争マップ",
+    "homeDescription": "世界中の活発な戦争と紛争を追跡。ウクライナ、ガザ、スーダン、ミャンマーなどのリアルタイム更新。"
+  }
+}

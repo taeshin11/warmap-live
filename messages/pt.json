@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Início",
+    "ukraine": "Mapa Ucrânia",
+    "gaza": "Mapa Gaza",
+    "middleEast": "Oriente Médio",
+    "about": "Sobre"
+  },
+  "map": {
+    "title": "Mapa Global de Conflitos ao Vivo",
+    "subtitle": "Rastreando {count} conflitos ativos em todo o mundo",
+    "loading": "Carregando mapa...",
+    "clickPin": "Clique em um marcador para detalhes",
+    "conflicts": "Conflitos Ativos",
+    "lastUpdated": "Última atualização"
+  },
+  "events": {
+    "title": "Últimos Eventos",
+    "noEvents": "Sem eventos recentes",
+    "source": "Fonte",
+    "readMore": "Ler mais",
+    "viewAll": "Ver todos os eventos"
+  },
+  "footer": {
+    "visitorsToday": "Hoje: {count} visitantes",
+    "visitorsTotal": "Total: {count} visitantes",
+    "lastUpdated": "Dados atualizados: {date}",
+    "disclaimer": "Apenas para fins informativos. Dados obtidos de relatórios públicos.",
+    "rights": "Todos os direitos reservados.",
+    "about": "Sobre",
+    "contact": "Contato",
+    "privacy": "Privacidade"
+  },
+  "severity": {
+    "critical": "Crítico",
+    "high": "Alto",
+    "medium": "Médio",
+    "low": "Baixo"
+  },
+  "conflict": {
+    "startDate": "Data de início",
+    "casualties": "Baixas",
+    "region": "Região",
+    "status": "Status",
+    "countries": "Países",
+    "active": "Ativo",
+    "frozen": "Congelado",
+    "resolved": "Resolvido",
+    "source": "Fonte",
+    "lastUpdated": "Última atualização",
+    "recentEvents": "Eventos recentes",
+    "summary": "Resumo",
+    "details": "Detalhes do conflito",
+    "backToMap": "Voltar ao mapa"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "Painel interativo de rastreamento de conflitos globais. Mapa de guerra com atualizações em tempo real.",
+    "homeTitle": "WarMap Live — Mapa Global Interativo de Conflitos",
+    "homeDescription": "Rastreie guerras e conflitos ativos em todo o mundo. Atualizações ao vivo sobre Ucrânia, Gaza, Sudão, Mianmar e mais."
+  }
+}

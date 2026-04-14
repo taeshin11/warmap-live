@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "首页",
+    "ukraine": "乌克兰地图",
+    "gaza": "加沙地图",
+    "middleEast": "中东",
+    "about": "关于"
+  },
+  "map": {
+    "title": "实时全球冲突地图",
+    "subtitle": "追踪全球{count}个活跃冲突",
+    "loading": "正在加载地图...",
+    "clickPin": "点击图钉查看详情",
+    "conflicts": "活跃冲突",
+    "lastUpdated": "最后更新"
+  },
+  "events": {
+    "title": "最新事件",
+    "noEvents": "暂无最新事件",
+    "source": "来源",
+    "readMore": "阅读更多",
+    "viewAll": "查看所有事件"
+  },
+  "footer": {
+    "visitorsToday": "今日: {count}位访客",
+    "visitorsTotal": "总计: {count}位访客",
+    "lastUpdated": "数据最后更新: {date}",
+    "disclaimer": "仅供参考。数据来源于公开报告。",
+    "rights": "版权所有。",
+    "about": "关于",
+    "contact": "联系",
+    "privacy": "隐私"
+  },
+  "severity": {
+    "critical": "紧急",
+    "high": "高",
+    "medium": "中",
+    "low": "低"
+  },
+  "conflict": {
+    "startDate": "开始日期",
+    "casualties": "伤亡人数",
+    "region": "地区",
+    "status": "状态",
+    "countries": "国家",
+    "active": "活跃",
+    "frozen": "冻结",
+    "resolved": "已解决",
+    "source": "来源",
+    "lastUpdated": "最后更新",
+    "recentEvents": "近期事件",
+    "summary": "摘要",
+    "details": "冲突详情",
+    "backToMap": "返回地图"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "互动式全球冲突追踪仪表板。实时更新的战争地图。",
+    "homeTitle": "WarMap Live — 互动全球冲突地图",
+    "homeDescription": "追踪全球活跃战争和冲突。乌克兰、加沙、苏丹、缅甸等实时更新。"
+  }
+}

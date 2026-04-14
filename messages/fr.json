@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "ukraine": "Carte Ukraine",
+    "gaza": "Carte Gaza",
+    "middleEast": "Moyen-Orient",
+    "about": "À propos"
+  },
+  "map": {
+    "title": "Carte Mondiale des Conflits en Direct",
+    "subtitle": "Suivi de {count} conflits actifs dans le monde",
+    "loading": "Chargement de la carte...",
+    "clickPin": "Cliquez sur une épingle pour les détails",
+    "conflicts": "Conflits Actifs",
+    "lastUpdated": "Dernière mise à jour"
+  },
+  "events": {
+    "title": "Derniers Événements",
+    "noEvents": "Aucun événement récent",
+    "source": "Source",
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tous les événements"
+  },
+  "footer": {
+    "visitorsToday": "Aujourd'hui: {count} visiteurs",
+    "visitorsTotal": "Total: {count} visiteurs",
+    "lastUpdated": "Données mises à jour: {date}",
+    "disclaimer": "À titre informatif uniquement. Données issues de rapports publics.",
+    "rights": "Tous droits réservés.",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Confidentialité"
+  },
+  "severity": {
+    "critical": "Critique",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Faible"
+  },
+  "conflict": {
+    "startDate": "Date de début",
+    "casualties": "Victimes",
+    "region": "Région",
+    "status": "Statut",
+    "countries": "Pays",
+    "active": "Actif",
+    "frozen": "Gelé",
+    "resolved": "Résolu",
+    "source": "Source",
+    "lastUpdated": "Dernière mise à jour",
+    "recentEvents": "Événements récents",
+    "summary": "Résumé",
+    "details": "Détails du conflit",
+    "backToMap": "Retour à la carte"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "Tableau de bord interactif de suivi des conflits mondiaux. Carte de guerre avec mises à jour en temps réel.",
+    "homeTitle": "WarMap Live — Carte Mondiale Interactive des Conflits",
+    "homeDescription": "Suivez les guerres et conflits actifs dans le monde. Mises à jour en direct sur l'Ukraine, Gaza, le Soudan, le Myanmar et plus."
+  }
+}

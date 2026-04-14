@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Home",
+    "ukraine": "Ukraine Map",
+    "gaza": "Gaza Map",
+    "middleEast": "Middle East",
+    "about": "About"
+  },
+  "map": {
+    "title": "Live Global Conflict Map",
+    "subtitle": "Tracking {count} active conflicts worldwide",
+    "loading": "Loading map...",
+    "clickPin": "Click a pin for details",
+    "conflicts": "Active Conflicts",
+    "lastUpdated": "Last updated"
+  },
+  "events": {
+    "title": "Latest Events",
+    "noEvents": "No recent events",
+    "source": "Source",
+    "readMore": "Read more",
+    "viewAll": "View all events"
+  },
+  "footer": {
+    "visitorsToday": "Today: {count} visitors",
+    "visitorsTotal": "Total: {count} visitors",
+    "lastUpdated": "Data last updated: {date}",
+    "disclaimer": "For informational purposes only. Data sourced from public reports.",
+    "rights": "All rights reserved.",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "severity": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "conflict": {
+    "startDate": "Start Date",
+    "casualties": "Casualties",
+    "region": "Region",
+    "status": "Status",
+    "countries": "Countries",
+    "active": "Active",
+    "frozen": "Frozen",
+    "resolved": "Resolved",
+    "source": "Source",
+    "lastUpdated": "Last Updated",
+    "recentEvents": "Recent Events",
+    "summary": "Summary",
+    "details": "Conflict Details",
+    "backToMap": "Back to Map"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "Interactive global conflict tracking dashboard. Live war map with real-time updates.",
+    "homeTitle": "WarMap Live — Interactive Global Conflict Map",
+    "homeDescription": "Track active wars and conflicts worldwide. Live updates on Ukraine, Gaza, Sudan, Myanmar and more."
+  }
+}

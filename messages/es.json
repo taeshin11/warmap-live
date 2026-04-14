@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "ukraine": "Mapa Ucrania",
+    "gaza": "Mapa Gaza",
+    "middleEast": "Medio Oriente",
+    "about": "Acerca de"
+  },
+  "map": {
+    "title": "Mapa Global de Conflictos en Vivo",
+    "subtitle": "Rastreando {count} conflictos activos en todo el mundo",
+    "loading": "Cargando mapa...",
+    "clickPin": "Haz clic en un pin para ver detalles",
+    "conflicts": "Conflictos Activos",
+    "lastUpdated": "Última actualización"
+  },
+  "events": {
+    "title": "Últimos Eventos",
+    "noEvents": "Sin eventos recientes",
+    "source": "Fuente",
+    "readMore": "Leer más",
+    "viewAll": "Ver todos los eventos"
+  },
+  "footer": {
+    "visitorsToday": "Hoy: {count} visitantes",
+    "visitorsTotal": "Total: {count} visitantes",
+    "lastUpdated": "Datos actualizados: {date}",
+    "disclaimer": "Solo para fines informativos. Datos obtenidos de informes públicos.",
+    "rights": "Todos los derechos reservados.",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Privacidad"
+  },
+  "severity": {
+    "critical": "Crítico",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo"
+  },
+  "conflict": {
+    "startDate": "Fecha de inicio",
+    "casualties": "Bajas",
+    "region": "Región",
+    "status": "Estado",
+    "countries": "Países",
+    "active": "Activo",
+    "frozen": "Congelado",
+    "resolved": "Resuelto",
+    "source": "Fuente",
+    "lastUpdated": "Última actualización",
+    "recentEvents": "Eventos recientes",
+    "summary": "Resumen",
+    "details": "Detalles del conflicto",
+    "backToMap": "Volver al mapa"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "Panel interactivo de seguimiento de conflictos globales. Mapa de guerra con actualizaciones en tiempo real.",
+    "homeTitle": "WarMap Live — Mapa Global Interactivo de Conflictos",
+    "homeDescription": "Rastrea guerras y conflictos activos en todo el mundo. Actualizaciones en vivo sobre Ucrania, Gaza, Sudán, Myanmar y más."
+  }
+}

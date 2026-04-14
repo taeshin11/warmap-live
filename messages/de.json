@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "ukraine": "Ukraine-Karte",
+    "gaza": "Gaza-Karte",
+    "middleEast": "Naher Osten",
+    "about": "Über uns"
+  },
+  "map": {
+    "title": "Live-Weltkarte der Konflikte",
+    "subtitle": "Verfolgung von {count} aktiven Konflikten weltweit",
+    "loading": "Karte wird geladen...",
+    "clickPin": "Klicken Sie auf eine Markierung für Details",
+    "conflicts": "Aktive Konflikte",
+    "lastUpdated": "Zuletzt aktualisiert"
+  },
+  "events": {
+    "title": "Neueste Ereignisse",
+    "noEvents": "Keine aktuellen Ereignisse",
+    "source": "Quelle",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle Ereignisse anzeigen"
+  },
+  "footer": {
+    "visitorsToday": "Heute: {count} Besucher",
+    "visitorsTotal": "Gesamt: {count} Besucher",
+    "lastUpdated": "Daten zuletzt aktualisiert: {date}",
+    "disclaimer": "Nur zu Informationszwecken. Daten aus öffentlichen Berichten.",
+    "rights": "Alle Rechte vorbehalten.",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz"
+  },
+  "severity": {
+    "critical": "Kritisch",
+    "high": "Hoch",
+    "medium": "Mittel",
+    "low": "Niedrig"
+  },
+  "conflict": {
+    "startDate": "Startdatum",
+    "casualties": "Opfer",
+    "region": "Region",
+    "status": "Status",
+    "countries": "Länder",
+    "active": "Aktiv",
+    "frozen": "Eingefroren",
+    "resolved": "Gelöst",
+    "source": "Quelle",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "recentEvents": "Aktuelle Ereignisse",
+    "summary": "Zusammenfassung",
+    "details": "Konfliktdetails",
+    "backToMap": "Zurück zur Karte"
+  },
+  "seo": {
+    "siteTitle": "WarMap Live",
+    "siteDescription": "Interaktives globales Konfliktverfolgungsdashboard. Kriegskarte mit Echtzeit-Updates.",
+    "homeTitle": "WarMap Live — Interaktive Weltkarte der Konflikte",
+    "homeDescription": "Verfolgen Sie aktive Kriege und Konflikte weltweit. Live-Updates zu Ukraine, Gaza, Sudan, Myanmar und mehr."
+  }
+}

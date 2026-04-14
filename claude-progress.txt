@@ -1,0 +1,18 @@
+# WarMap Live — Claude Session Progress Log
+# Format: [TIMESTAMP] [AGENT] [MILESTONE] [ACTION] [STATUS]
+
+SESSION START ROUTINE:
+1. Read this file top-to-bottom
+2. Read feature_list.json → identify pending features
+3. Read research_history/ latest .md file
+4. Resume from last incomplete milestone
+5. On milestone complete → write research_history/milestone-XX-name.md
+6. git add -A && git commit -m "..." && git push
+
+[2026-04-14 00:00] [INIT] [M0] Project PRD written. Awaiting implementation.
+[2026-04-14 12:00] [AGENT-1] [M0] Next.js 15 scaffolded, dependencies installed. COMPLETE
+[2026-04-14 12:10] [AGENT-2] [M1] conflicts.json (12), events.json (22), countries.json (15) created. COMPLETE
+[2026-04-14 12:20] [AGENT-1] [M2] ConflictMap.tsx (Leaflet, SSR disabled), ConflictPin.tsx, EventPanel.tsx, EventCard.tsx created. COMPLETE
+[2026-04-14 12:30] [AGENT-1] [M3] Header, Footer, Sidebar, AdHeader, AdSidebar, AdInContent, AdMobileSticky, VisitorCounter created. API route created. COMPLETE
+[2026-04-14 12:40] [AGENT-3] [M4] i18n config (8 langs), all message files, ukraine-war-map, gaza-war-map, middle-east-conflict-map pages, sitemap, robots created. COMPLETE
+[2026-04-14 12:50] [QA] [M5] Build verification in progress...
