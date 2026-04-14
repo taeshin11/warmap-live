@@ -2,67 +2,54 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About WarMap Live — Global Conflict Tracking Dashboard',
-  description: 'Learn about WarMap Live, an interactive global conflict tracking dashboard. Our mission, data sources, and methodology for tracking active wars worldwide.',
+  title: 'About Us',
+  description: 'Learn about WarMap Live — our mission, methodology, and commitment to transparent conflict intelligence.',
+  keywords: 'war map, conflict map, battle tracker, military incidents, war zones, frontline map, about us, conflict intelligence platform',
 }
 
 export default function AboutPage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-12 w-full">
-      <nav className="text-xs text-slate-500 mb-8">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
-        <span className="mx-2">/</span>
-        <span className="text-slate-800">About</span>
-      </nav>
+    <main className="bg-slate-50 min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <nav className="text-sm text-slate-500 mb-8">
+          <Link href="/" className="hover:text-slate-700">Home</Link>
+          <span className="mx-2">/</span>
+          <span>About Us</span>
+        </nav>
 
-      <h1 className="text-3xl font-bold text-slate-900 mb-6">About WarMap Live</h1>
+        <h1 className="text-4xl font-bold text-slate-900 mb-4">About WarMap Live</h1>
+        <p className="text-xl text-slate-600 mb-10 leading-relaxed">Real-time interactive map tracking active war zones, frontlines, and military incidents worldwide</p>
 
-      <div className="prose prose-slate max-w-none space-y-6">
-        <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-slate-800 mb-3">Our Mission</h2>
-          <p className="text-slate-600 leading-relaxed">
-            WarMap Live is an interactive global conflict tracking dashboard that provides a visual, at-a-glance view of active wars and conflict zones worldwide. We aggregate verified reports from trusted news sources and humanitarian organizations to help news followers, researchers, journalists, and concerned citizens understand the geographic context of ongoing conflicts.
-          </p>
-        </div>
+        <div className="space-y-10">
+          <section>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Our Mission</h2>
+            <p className="text-slate-600 leading-relaxed mb-4">WarMap Live was built on a single conviction: that access to timely, accurate conflict intelligence should not be limited to governments, think tanks, or expensive subscription services. We believe that journalists, researchers, policy analysts, students, and engaged citizens all deserve access to the same quality of information to understand the world&apos;s most pressing security challenges.</p>
+            <p className="text-slate-600 leading-relaxed">In a world where armed conflicts shape economies, displace populations, and determine the course of history, we are committed to making conflict data accessible, transparent, and useful for anyone who needs it.</p>
+          </section>
 
-        <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-slate-800 mb-3">Data Sources</h2>
-          <p className="text-slate-600 leading-relaxed mb-4">
-            All conflict data on WarMap Live is sourced from publicly available reports from:
-          </p>
-          <ul className="space-y-2 text-slate-600">
-            <li className="flex gap-2"><span className="text-blue-600 font-medium">Reuters, AP, AFP</span> — Wire service reporting</li>
-            <li className="flex gap-2"><span className="text-blue-600 font-medium">UN OCHA, WFP, UNHCR</span> — Humanitarian data</li>
-            <li className="flex gap-2"><span className="text-blue-600 font-medium">ACLED</span> — Armed Conflict Location & Event Data</li>
-            <li className="flex gap-2"><span className="text-blue-600 font-medium">ISW</span> — Institute for the Study of War</li>
-            <li className="flex gap-2"><span className="text-blue-600 font-medium">BBC, Al Jazeera</span> — Regional news coverage</li>
-            <li className="flex gap-2"><span className="text-blue-600 font-medium">IAEA</span> — Nuclear safety monitoring</li>
-          </ul>
-        </div>
+          <section>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">What We Track</h2>
+            <p className="text-slate-600 leading-relaxed mb-4">WarMap Live provides a real-time interactive map tracking active war zones, frontlines, and military incidents worldwide. Our platform aggregates, verifies, and presents this data in a format designed for clarity and usability, so users can quickly understand the current situation and track changes over time.</p>
+            <p className="text-slate-600 leading-relaxed">We cover active conflicts across multiple regions, providing data visualizations, timelines, and detailed analysis that contextualizes raw numbers within broader geopolitical realities.</p>
+          </section>
 
-        <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-slate-800 mb-3">Technology</h2>
-          <p className="text-slate-600 leading-relaxed">
-            WarMap Live is built with Next.js 15 (App Router), Leaflet.js for interactive mapping, and OpenStreetMap tiles. The site is fully static-generated for performance and deployed on Vercel. Data is updated manually from verified sources.
-          </p>
-        </div>
+          <section>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Our Data Sources &amp; Methodology</h2>
+            <p className="text-slate-600 leading-relaxed mb-4">Our data is compiled from a range of publicly available sources including: official government reports and military briefings, United Nations agencies (OCHA, UNHCR, WFP), established academic conflict databases (ACLED, SIPRI, Uppsala Conflict Data Program), verified open-source intelligence (OSINT) from credentialed researchers, and reporting from internationally recognized news organizations.</p>
+            <p className="text-slate-600 leading-relaxed">We prioritize source transparency and where possible, cross-reference multiple sources before publishing figures. Where sources disagree, we aim to present the range of estimates rather than a single contested figure.</p>
+          </section>
 
-        <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold text-amber-800 mb-2">Disclaimer</h2>
-          <p className="text-amber-700 text-sm leading-relaxed">
-            WarMap Live provides information for educational and informational purposes only. Casualty figures and conflict details are estimates based on available reports and may not reflect the full or current situation. We do not take political positions on any conflict. Data accuracy depends on available public reporting. Users should consult official sources for authoritative information.
-          </p>
+          <section>
+            <h2 className="text-2xl font-semibold text-slate-800 mb-4">Why This Matters</h2>
+            <p className="text-slate-600 leading-relaxed">Conflict data is inherently sensitive and often politically contested. We recognize this complexity and strive to present information in a factual, non-partisan manner. Our goal is not to advocate for any particular political position, but to ensure that accurate information is available to support informed discussion, humanitarian response, and evidence-based policy. The numbers we track represent real human lives — and that responsibility guides everything we do.</p>
+          </section>
+
+          <section className="bg-white rounded-2xl border border-slate-200 p-6">
+            <h2 className="text-xl font-semibold text-slate-800 mb-3">Contact Us</h2>
+            <p className="text-slate-600">For inquiries, corrections, or partnership opportunities, please reach out at <span className="text-red-600 font-medium">contact@warmap-live.vercel.app</span>. We welcome feedback from researchers, journalists, and organizations working in conflict-affected areas.</p>
+          </section>
         </div>
       </div>
-
-      <div className="mt-8">
-        <Link
-          href="/en"
-          className="inline-flex items-center gap-2 bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 transition-colors"
-        >
-          View Conflict Map →
-        </Link>
-      </div>
-    </div>
+    </main>
   )
 }

@@ -4,15 +4,9 @@ import ConflictMapWrapper from '@/components/Map/ConflictMapWrapper'
 import { conflicts } from '@/lib/data'
 
 export const metadata: Metadata = {
-  title: 'WarMap Live — Interactive Global Conflict Map',
-  description: 'Track active wars and conflicts worldwide with our interactive live map. Real-time updates on Ukraine, Gaza, Sudan, Myanmar and more.',
-  openGraph: {
-    title: 'WarMap Live — Interactive Global Conflict Map',
-    description: 'Track active wars and conflicts worldwide with our interactive live map.',
-    url: 'https://warmap.live',
-    siteName: 'WarMap Live',
-    type: 'website',
-  },
+  title: 'WarMap Live | Real-Time Conflict Intelligence',
+  description: 'Real-time interactive map tracking active war zones, frontlines, and military incidents worldwide',
+  keywords: 'war map, conflict map, battle tracker, military incidents, war zones, frontline map',
 }
 
 interface HomePageProps {

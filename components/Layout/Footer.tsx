@@ -18,8 +18,14 @@ export default function Footer() {
           </div>
           <VisitorCounter />
         </div>
-        <div className="border-t border-slate-800 mt-6 pt-4 text-xs text-center text-slate-600">
-          © {new Date().getFullYear()} WarMap Live. For informational purposes only.
+        <div className="max-w-7xl mx-auto pt-6 mt-6 border-t border-slate-700">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm mb-4">
+            <a href="/about" className="hover:text-white transition-colors">About Us</a>
+            <a href="/faq" className="hover:text-white transition-colors">How to Use &amp; FAQ</a>
+            <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+          </div>
+          <p className="text-center text-xs text-slate-500">© {new Date().getFullYear()} WarMap Live. All rights reserved. Data is for informational purposes only.</p>
         </div>
       </div>
     </footer>
