@@ -1,11 +1,12 @@
 'use client'
+import { useEffect } from 'react'
+
 export default function AdMobileSticky() {
-  return (
-    <div className="fixed bottom-0 left-0 right-0 flex justify-center z-50 md:hidden bg-white/90 backdrop-blur-sm py-1 shadow-lg">
-      {/* ADSTERRA ZONE: Mobile Sticky */}
-      <div className="w-[320px] h-[50px] bg-slate-200 flex items-center justify-center text-slate-400 text-xs rounded">
-        [Adsterra Mobile Sticky 320x50]
-      </div>
-    </div>
-  )
+  useEffect(() => {
+    const s = document.createElement('script')
+    s.src = 'https://pl29155546.profitablecpmratenetwork.com/3c/eb/d0/3cebd0b5f38a0dd0e994b0919c50756f.js'
+    s.async = true
+    document.head.appendChild(s)
+  }, [])
+  return null
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import { FeedbackButton } from '@/components/FeedbackButton'
 
@@ -22,10 +23,10 @@ export const metadata: Metadata = {
     description: 'Real-time interactive map tracking active war zones, frontlines, and military incidents worldwide',
   },
   verification: {
-    google: 'add-your-google-site-verification-here',
+    google: 'WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc',
   },
   other: {
-    'google-adsense-account': 'ca-pub-add-your-publisher-id-here',
+    'google-adsense-account': 'ca-pub-7098271335538021',
     'indexnow-key': 'warmap-live-2025',
   },
 }
@@ -67,6 +68,12 @@ export default function RootLayout({
       <body className="min-h-screen bg-slate-50 text-slate-800 flex flex-col">
         {children}
         <FeedbackButton siteName="WarMap Live" siteUrl="https://warmap-live.vercel.app" />
+      <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7098271335538021"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )

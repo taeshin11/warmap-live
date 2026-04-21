@@ -1,11 +1,26 @@
 'use client'
+import { useEffect, useRef } from 'react'
+
 export default function AdSidebar() {
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (!ref.current || ref.current.dataset.loaded) return
+    ref.current.dataset.loaded = '1'
+    ;(window as any).atOptions = {
+      key: '2e7a476accad165fbf86745db5b98545',
+      format: 'iframe',
+      height: 250,
+      width: 300,
+      params: {}
+    }
+    const s = document.createElement('script')
+    s.src = 'https://www.highperformanceformat.com/2e7a476accad165fbf86745db5b98545/invoke.js'
+    s.async = true
+    ref.current.appendChild(s)
+  }, [])
   return (
-    <div className="sticky top-4">
-      {/* ADSTERRA ZONE: Sidebar 300x250 */}
-      <div className="w-[300px] h-[250px] bg-slate-200 flex items-center justify-center text-slate-400 text-sm rounded">
-        [Adsterra Sidebar 300x250]
-      </div>
+    <div className="hidden lg:flex justify-center">
+      <div ref={ref} className="min-h-[250px] w-[300px]" />
     </div>
   )
 }
